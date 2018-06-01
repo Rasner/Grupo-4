@@ -5,6 +5,7 @@ using UnityEngine;
 public class controlador : MonoBehaviour {
 
     public static controlador instance;
+    
 
 	// Use this for initialization
 	void Start () {
@@ -16,9 +17,9 @@ public class controlador : MonoBehaviour {
 		
 	}
 
-    public void posion()
+    public void posion(bool curacion)
     { 
-        if (Modelo.instance.curando == true)
+        if (curacion == true)
         {
             Modelo.instance.Vida += Modelo.instance.Cura;
         }
