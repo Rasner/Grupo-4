@@ -15,4 +15,12 @@ public class controlador : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    public void posion()
+    { 
+        if (Modelo.instance.curando == true)
+        {
+            Modelo.instance.vida += Modelo.instance.cura;
+        }
+    }
 }
