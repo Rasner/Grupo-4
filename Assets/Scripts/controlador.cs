@@ -20,7 +20,7 @@ public class controlador : MonoBehaviour {
     { 
         if (Modelo.instance.curando == true)
         {
-            Modelo.instance.vida += Modelo.instance.cura;
+            Modelo.instance.Vida += Modelo.instance.Cura;
         }
     }
 }
