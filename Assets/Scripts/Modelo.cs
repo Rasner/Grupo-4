@@ -8,4 +8,11 @@ public class Modelo : MonoBehaviour {
 	public float Cura;
 	public bool curando;
 	
+	
+	void Start()
+	{
+		Vida =100;
+		Cura =100;
+		curando =false;
+	}
 }
