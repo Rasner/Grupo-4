@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Modelo : MonoBehaviour {
 
-    public string Nombre;
-	public float PuntosdeVida;
-	public float PuntosdeVelocidad;
+	public float Vida;
+	public float Cura;
+	public bool curando;
 	
 }
