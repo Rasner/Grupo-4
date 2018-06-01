@@ -123,6 +123,7 @@ GameObject:
   - component: {fileID: 284684045}
   - component: {fileID: 284684044}
   - component: {fileID: 284684046}
+  - component: {fileID: 284684047}
   m_Layer: 0
   m_Name: Arma5
   m_TagString: Untagged
@@ -212,6 +213,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.08, y: 1.06}
   m_EdgeRadius: 0
+--- !u!114 &284684047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 284684043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49d4d3539ba01ed4f8d7766a8efa1a0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nombre: Arma6
+  PuntosdeVida: 15
+  PuntosdeVelocidad: 10
 --- !u!1 &316211457
 GameObject:
   m_ObjectHideFlags: 0
@@ -223,6 +238,7 @@ GameObject:
   - component: {fileID: 316211458}
   - component: {fileID: 316211460}
   - component: {fileID: 316211461}
+  - component: {fileID: 316211462}
   m_Layer: 0
   m_Name: PocionMana
   m_TagString: Untagged
@@ -332,6 +348,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.22, y: 0.29}
   m_EdgeRadius: 0
+--- !u!114 &316211462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 316211457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49d4d3539ba01ed4f8d7766a8efa1a0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nombre: Pocion de mana
+  PuntosdeVida: 0
+  PuntosdeVelocidad: 10
 --- !u!1 &341722063
 GameObject:
   m_ObjectHideFlags: 0
@@ -343,6 +373,7 @@ GameObject:
   - component: {fileID: 341722065}
   - component: {fileID: 341722064}
   - component: {fileID: 341722067}
+  - component: {fileID: 341722068}
   m_Layer: 0
   m_Name: Arma1
   m_TagString: Untagged
@@ -452,6 +483,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.93, y: 1.2}
   m_EdgeRadius: 0
+--- !u!114 &341722068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 341722063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49d4d3539ba01ed4f8d7766a8efa1a0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nombre: Arma1
+  PuntosdeVida: 30
+  PuntosdeVelocidad: 20
 --- !u!1 &1011973685
 GameObject:
   m_ObjectHideFlags: 0
@@ -562,6 +607,7 @@ GameObject:
   - component: {fileID: 1124159818}
   - component: {fileID: 1124159817}
   - component: {fileID: 1124159820}
+  - component: {fileID: 1124159821}
   m_Layer: 0
   m_Name: Arma3
   m_TagString: Untagged
@@ -671,6 +717,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.15, y: 1.1}
   m_EdgeRadius: 0
+--- !u!114 &1124159821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1124159816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49d4d3539ba01ed4f8d7766a8efa1a0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nombre: Arma3
+  PuntosdeVida: 20
+  PuntosdeVelocidad: 15
 --- !u!1 &1536923907
 GameObject:
   m_ObjectHideFlags: 0
@@ -682,6 +742,7 @@ GameObject:
   - component: {fileID: 1536923909}
   - component: {fileID: 1536923908}
   - component: {fileID: 1536923911}
+  - component: {fileID: 1536923912}
   m_Layer: 0
   m_Name: PocionVida
   m_TagString: Untagged
@@ -791,6 +852,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.22, y: 0.29}
   m_EdgeRadius: 0
+--- !u!114 &1536923912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1536923907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49d4d3539ba01ed4f8d7766a8efa1a0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nombre: Pocion de vida
+  PuntosdeVida: 10
+  PuntosdeVelocidad: 0
 --- !u!1 &1627733757
 GameObject:
   m_ObjectHideFlags: 0
@@ -883,6 +958,7 @@ GameObject:
   - component: {fileID: 1770905990}
   - component: {fileID: 1770905989}
   - component: {fileID: 1770905992}
+  - component: {fileID: 1770905993}
   m_Layer: 0
   m_Name: Arma3
   m_TagString: Untagged
@@ -992,6 +1068,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.14, y: 1.11}
   m_EdgeRadius: 0
+--- !u!114 &1770905993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1770905988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49d4d3539ba01ed4f8d7766a8efa1a0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nombre: Arma4
+  PuntosdeVida: 15
+  PuntosdeVelocidad: 20
 --- !u!1 &1822519700
 GameObject:
   m_ObjectHideFlags: 0
@@ -1003,6 +1093,7 @@ GameObject:
   - component: {fileID: 1822519702}
   - component: {fileID: 1822519701}
   - component: {fileID: 1822519704}
+  - component: {fileID: 1822519705}
   m_Layer: 0
   m_Name: Arma2
   m_TagString: Untagged
@@ -1112,6 +1203,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.02, y: 1.22}
   m_EdgeRadius: 0
+--- !u!114 &1822519705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1822519700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49d4d3539ba01ed4f8d7766a8efa1a0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nombre: Arma2
+  PuntosdeVida: 25
+  PuntosdeVelocidad: 25
 --- !u!1 &2021658855
 GameObject:
   m_ObjectHideFlags: 0
@@ -1123,6 +1228,7 @@ GameObject:
   - component: {fileID: 2021658857}
   - component: {fileID: 2021658856}
   - component: {fileID: 2021658859}
+  - component: {fileID: 2021658860}
   m_Layer: 0
   m_Name: Arma4
   m_TagString: Untagged
@@ -1232,3 +1338,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.12, y: 1.03}
   m_EdgeRadius: 0
+--- !u!114 &2021658860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2021658855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49d4d3539ba01ed4f8d7766a8efa1a0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nombre: Arma5
+  PuntosdeVida: 10
+  PuntosdeVelocidad: 10

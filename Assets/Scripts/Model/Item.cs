@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Item : MonoBehaviour {
 
-	public string Nombre{get; set;}
-	public float PuntosdeVida{get; set;}
-	public float PuntosdeVelocidad{get;set;}
+	public string Nombre;
+	public float PuntosdeVida;
+	public float PuntosdeVelocidad;
 
 }
