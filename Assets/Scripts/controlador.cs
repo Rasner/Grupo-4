@@ -18,10 +18,12 @@ public class controlador : MonoBehaviour {
 	}
 
     public void posion(bool curacion)
-    { 
+    {
+        curacion = false;
         if (curacion == true)
         {
             Modelo.instance.Vida += Modelo.instance.Cura;
+            Debug.Log("curan");
         }
     }
 }
