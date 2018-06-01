@@ -15,5 +15,6 @@ public class Modelo : MonoBehaviour {
 		Vida =100;
 		Cura =100;
 		curando =false;
+		Debug.Log ("Si esta curando vida aumenta en cura");
 	}
 }
