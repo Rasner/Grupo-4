@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Item : MonoBehaviour {
+public class Modelo : MonoBehaviour {
 
-	public string Nombre;
+    public string Nombre;
 	public float PuntosdeVida;
 	public float PuntosdeVelocidad;
-
+	
 }
