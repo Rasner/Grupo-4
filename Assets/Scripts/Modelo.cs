@@ -8,9 +8,10 @@ public class Modelo : MonoBehaviour {
 	public float Cura;
 	public bool curando;
 	
-	
+	public static Modelo instance;
 	void Start()
 	{
+		instance=this;
 		Vida =100;
 		Cura =100;
 		curando =false;
